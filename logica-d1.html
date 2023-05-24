@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+	<header>
+		<img src="imagenes/Logo.png">
+		<h1>Encriptador/Desencriptador Alura</h1>
+	</header>
+	<main>
+		<section class="ingreso">
+			<div class="textoIngresado">
+				<textarea name="textarea1" id="entrada" cols="30" rows="8" placeholder="Ingrese texto aquí"></textarea>
+			</div>
+			<div class="botones">
+				<button id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+				<button id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+			</div>
+		</section>
+		<section class="resultado">
+			<div class="caja" id="caja">
+				<textarea name="textarea2" id="salida" cols="30" rows="10"></textarea>
+				<img src="imagenes/Muñeco.png">
+				<div class="advert">
+					<p id="texto1">Ningún mensaje fue encontrado</p>
+					<p id="texto2">Ingresa el texto que deseas encriptar o desencriptar<p>
+				</div>
+			</div>
+			
+		
+		</section>
+	</main>
+	<footer>
+		<p>Made by Jhonatan León Rodríguez</p>
+	</footer>
+	
+	
+	<script type="text/javascript" src="logica.js"></script>
+</body>
+</html>
